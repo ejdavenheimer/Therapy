@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Banco Rolling Code - Tú dinero estará seguro con nosotros.">
+  <meta name="keywords" content="prestamos, banco, financiación, ofertas, tarjetas, crédito, debito">
+  <meta name="author" content="Yamila">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+  <link rel="icon" href="img/Therapy.png" type="image/x-icon">
+  <title>Therapy</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="index.html">
+            <img class="rounded-circle" src="img/Therapy.png" alt="Logo Therapy" width="100" height="100">
+          </a>
+
+          <!-- Menú -->
+          <ul class="nav nav-underline align-items-center">
+            <li class="nav-item p-3">
+              <a class="nav-link estado border-bottom border-light" aria-current="page" href="index.html">Mi Estado</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-person-circle h1"></i>
+              </a>
+
+               <ul class="dropdown-menu border-light text-center">
+                <li class="m-3">
+                  <a type="submit" href="#" class="dropdown-item btn btn-perfil rounded-pill mb-3">Editar datos personales</a>
+                </li>
+                <li class="m-3 mb-5">
+                  <a type="submit" href="index.html" class="dropdown-item btn btn-perfil rounded-pill">Mi estado del mes</a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li class="m-3">
+                  <a type="submit" href="inicioSesion.html" class="dropdown-item btn btn-perfil rounded-pill">Cerrar sesión</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="sesion container- m-0 row justify-content-center">
+      <section class="col-6 izq d-flex justify-content-center align-items-center flex-column">
+        <p>Hola Yamila, ¿Cómo te sientes hoy?</p>
+        <ul class="nav mb-5">
+          <li class="btn p-1">
+            <img class="emoji" src="img/emojis/sonriente.png">
+          </li>
+          <li class="btn p-1">
+            <img class="emoji" src="img/emojis/feliz.png">
+          </li>
+          <li class="btn p-1">
+            <img class="emoji" src="img/emojis/triste.png">
+          </li>
+          <li class="btn p-1">
+            <img class="emoji" src="img/emojis/llanto.png">
+          </li>
+          <li class="btn p-1">
+            <img class="emoji" src="img/emojis/dudoso.png">
+          </li>
+          <li class="btn p-1">
+            <img class="emoji" src="img/emojis/enojado.png">
+          </li>
+          <li class="btn p-1">
+            <img class="emoji" src="img/emojis/confuso.png">
+          </li>
+          <li class="btn p-1">
+            <img class="emoji" src="img/emojis/pensando.png">
+          </li>
+        </ul>
+        <p>¿Quieres expresar cómo te sientes?</p>
+        <textarea id="mi-sentir" name="comentario" rows="4" cols="50" placeholder="Escribe aquí..."></textarea>
+        <button type="submit" class="btn btn-sentir rounded-pill mt-3">Guardar</button>
+      </section>
+      <section class="col-6 der text-center d-flex justify-content-center align-items-center">
+        <div class="mes-container p-3 d-flex flex-column align-items-center">
+          <p class="mes">DICIEMBRE</p>
+          <table class="table table-bordered">
+            <thead class="table-light">
+              <tr>
+                <th scope="col">DO</th>
+                <th scope="col">LU</th>
+                <th scope="col">MA</th>
+                <th scope="col">MI</th>
+                <th scope="col">JU</th>
+                <th scope="col">VI</th>
+                <th scope="col">SA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="5"></td>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+              </tr>
+              <tr>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>31</td>
+                <td colspan="6"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="text-center">
+    <div class="redes mt-5 mb-4 d-flex justify-content-evenly">
+      <p>___________________________________________________</p>
+        <a class="nav-link" href="#"><i class="bi bi-twitter-x"></i></a>
+        <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+        <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+      <p>___________________________________________________</p>
+    </div>
+    <div class="copyright">&copy; 2023 Therapy. Todos los derechos reservados.</div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+</html>
